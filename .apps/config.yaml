@@ -1,0 +1,20 @@
+appname: gin-gonic
+builds: []
+variables:
+- name: Image
+  value: builder-dev.acornsoft.io/apps/gin-gonic:XU2nO1aL_
+- name: Replicas
+  value: "1"
+- name: AppName
+  value: gin-gonic
+- name: RequestCpu
+  value: 0m
+- name: RequestMemory
+  value: 0Mi
+- name: LimitCpu
+  value: 0m
+- name: LimitMemory
+  value: 0Mi
+- name: UpdatedImage
+  value: builder-dev.acornsoft.io/apps/gin-gonic:XU2nO1aL_
+addons: []

@@ -1,0 +1,7 @@
+{{range .payload }}
+<a href="/api/svc/{{.ID}}">
+    <!--Display the title of the article -->
+    <h2>{{.Title}}</h2>
+</a>
+<p>{{.Content}}</p>
+{{end}}
