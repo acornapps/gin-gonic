@@ -1,7 +1,7 @@
 builds: []
 variables:
 - name: Image
-  value: builder-dev.acornsoft.io/apps/gin-gonic:XU2nO1aL_
+  value: builder-dev.acornsoft.io/apps/gin-gonic:latest
 - name: Replicas
   value: "1"
 - name: RequestCpu
@@ -12,6 +12,4 @@ variables:
   value: 0m
 - name: LimitMemory
   value: 0Mi
-- name: UpdatedImage
-  value: builder-dev.acornsoft.io/apps/gin-gonic:latest
 addons: []
